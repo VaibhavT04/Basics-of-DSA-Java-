@@ -14,7 +14,7 @@ public class print_digits {
 
         int div = (int)(Math.pow(10, length-1));
 
-        while (n!=0) {
+        while (div!=0) {
             int x = n/div;
             System.out.println(x);
             n = n%div;
