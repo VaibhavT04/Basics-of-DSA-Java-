@@ -8,5 +8,7 @@ public class ipnop {
         String name = scn.nextLine();
 
         System.out.println("Hello " + name + ". Your age is " + age);
+
+        scn.close();
     }
 }
