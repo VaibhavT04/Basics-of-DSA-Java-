@@ -18,6 +18,7 @@ public class rotate_number {
         if(r<0){
             r = length+r;
         }
+        r = r%length;
 
         int first = n/(int)Math.pow(10, r);
         int last = n%(int)Math.pow(10, r);
