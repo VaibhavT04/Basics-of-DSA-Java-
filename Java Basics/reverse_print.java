@@ -11,7 +11,6 @@ public class reverse_print {
             n = n/10;
         }
 
-        // System.out.println(length);
         scn.close();
     }
 }
