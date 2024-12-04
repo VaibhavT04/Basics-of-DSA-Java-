@@ -2,8 +2,8 @@ import java.util.Scanner;
 
 public class pattern11 {
     public static void main(String[] args) {
-        Scanner scn = new Scanner(System.in);
-        int n = scn.nextInt();
+        Scanner sc = new Scanner(System.in);
+        int n = sc.nextInt();
         int a = 0;
         int b = 1;
 
@@ -16,6 +16,6 @@ public class pattern11 {
             }
             System.out.println();
         }
-        scn.close();
+        sc.close();
     }
 }
