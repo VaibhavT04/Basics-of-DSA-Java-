@@ -10,6 +10,6 @@ public class reverse_print {
             System.out.println(x);
             n = n/10;
         }
-
+        scn.close();
     }
 }
