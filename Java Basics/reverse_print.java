@@ -11,6 +11,5 @@ public class reverse_print {
             n = n/10;
         }
 
-        scn.close();
     }
 }
