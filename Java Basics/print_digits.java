@@ -21,7 +21,6 @@ public class print_digits {
             div = div/10;
         }
 
-        // System.out.println(length);
         scn.close();
     }
 }
