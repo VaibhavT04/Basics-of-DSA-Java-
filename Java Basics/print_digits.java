@@ -20,7 +20,5 @@ public class print_digits {
             n = n%div;
             div = div/10;
         }
-
-        scn.close();
     }
 }
